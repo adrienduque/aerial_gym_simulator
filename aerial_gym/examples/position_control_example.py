@@ -28,3 +28,6 @@ if __name__ == "__main__":
             # actions[:, 3] = torch.pi * (torch.rand_like(actions[:, 3]) * 2 - 1)
             env_manager.reset()
         env_manager.step(actions=actions)
+
+
+# True push test, I forgot I had a dev branch ...
